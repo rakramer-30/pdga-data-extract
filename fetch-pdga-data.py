@@ -82,7 +82,7 @@ def fetch_pdga_data(url, output_csv_file):
         print(f"Failed to retrieve data: Status code {page.status_code}")
         return None
 
-# URL to fetch the data from
+# URL to fetch the data from and what to save the CSV file as
 url = 'https://www.pdga.com/tour/event/77763'
 output_csv_file = 'pdga_event_data.csv'
 
